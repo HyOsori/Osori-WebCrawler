@@ -24,11 +24,11 @@ class NdhsMealCrawler(scrapy.Spider):
 
         for i in range(7):
             print l[i]
-            print "조식 : ",
+            print "아침 : ",
             print m[3*i + 0]
-            print "중식 : ",
+            print "점심 : ",
             print m[3*i + 1]
-            print "석식 : ",
+            print "저녁 : ",
             print m[3*i + 2 ]
 
     pass
@@ -37,5 +37,5 @@ process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'
 })
 
-process.crawl(MyCrawler)
+process.crawl(NdhsMealCrawler)
 process.start()

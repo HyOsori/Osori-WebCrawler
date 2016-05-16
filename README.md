@@ -10,7 +10,7 @@
 4 | 디시인사이드 힛갤러리 목록  | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/dcinside_hit_gallery.py) | [jhwon0415](https://github.com/jhwon0415)
 5 | 해외축구 일정 결과  | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/FootballGameCrawler.py) | [bees1114](https://github.com/bees1114)
 6 | Zangsisi 최신화 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/zangsisi_recent_manga.py) | [GunjuKo](https://github.com/GunjuKo)
-7 | LOL 패치노트 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blo    b/master/LOLUpdateContent.py) | [seubseub](https://github.com/seubseub)
+7 | LOL 패치노트 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/LOLUpdateContent.py) | [seubseub](https://github.com/seubseub)
 
 # Contributing
 풀리퀘 주세요~

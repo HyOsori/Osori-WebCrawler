@@ -3,7 +3,7 @@ import scrapy
 from scrapy.crawler import CrawlerProcess
 
 
-class MyCrawler(scrapy.Spider):
+class NdhsMealCrawler(scrapy.Spider):
     name = 'NDHS_CRAWLER'
     start_urls = ['http://www.ndhs.or.kr/2014/sub_community/sub2.php']
 

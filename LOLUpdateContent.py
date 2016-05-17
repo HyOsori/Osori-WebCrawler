@@ -9,17 +9,12 @@ class LOLUpdateContent(scrapy.Spider):
         url = response.css("td.tleft a::attr(href)").extract()
         title = response.css("td.tleft a::text").extract()
 
-        total = []
         print 'League of Legends Update Note'
 
-        for i in range(10):
-            temp_title = title[i]
-            temp_url = url[i]
-            total.append((temp_title,temp_url))
+	final = zip(title,url)
 
-
-        for temp_title,temp_url in total:
-            print 'http://www.leagueoflegends.co.kr' + temp_url + ' ' + temp_title
+	for title,url in final:
+		print 'http://www.leagueoflegends.co.kr' + url + ' ' + title
 
     pass
 

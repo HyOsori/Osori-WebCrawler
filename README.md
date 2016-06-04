@@ -11,6 +11,7 @@
 5 | 해외축구 일정 결과  | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/FootballGameCrawler.py) | [bees1114](https://github.com/bees1114)
 6 | Zangsisi 최신화 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/zangsisi_recent_manga.py) | [GunjuKo](https://github.com/GunjuKo)
 7 | LOL 패치노트 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/LOLUpdateContent.py) | [seubseub](https://github.com/seubseub)
+8 | Steam 세일 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/steamCrawl.py) | [doomsheart](https://github.com/doomsheart)
 
 # Contributing
 풀리퀘 주세요~

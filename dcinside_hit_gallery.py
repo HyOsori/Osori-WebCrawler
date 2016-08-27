@@ -7,6 +7,7 @@ class DCInsideHitGalleryCrawler(scrapy.Spider):
     start_urls = ['http://gall.dcinside.com/board/lists/?id=hit&page=1']
 
     def parse(self, response):
+
         query_notice_title = '.list_thead > tr > td:nth-child(2) > a::text'
         query_notice_number = '.list_thead > tr > td:nth-child(1)::text'
 
@@ -16,7 +17,7 @@ class DCInsideHitGalleryCrawler(scrapy.Spider):
         pairs = zip(numbers, titles)
 
         for number, pair in pairs:
-            print number, pair
+            print(str(number) + "/123/" + pair)
 
 process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'

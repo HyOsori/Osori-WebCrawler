@@ -14,7 +14,42 @@
 8 | Steam 세일 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/steamCrawl.py) | [doomsheart](https://github.com/doomsheart)
 
 # Contributing
-풀리퀘 주세요~
+* 크롤러는 python으로 작성해주세요.
+* 표준출력을 형식에 맞춰주시면 자동으로 Push가 발송됩니다.
+'''
+고유번호[SEPERATOR]제목[SEPERATOR]링크
+'''
+* 고유번호는 점점 증가해야합니다.
+* 크롤러와 settings.json 함께 수정해서 풀리퀘를 날려주세요.
+'''json
+{
+...
+"dcinside_hit_gallery" : {
+    "file_name": "dcinside_hit_gallery.py",
+    "crawl_id": "3",
+    "crawl_cycle": "60",
+    "title": "디시인사이드 힛 갤",
+    "desc": "힛갤에 뭐 올라옵니까?",
+    "thumbnail": "URL",
+    "num_extra_data": "0",
+    "separator": "~!@123~!@"
+  },
+...
+}
+'''
+키 | 값 | 설명
+---|----|------
+dcinside_hit_gallery | Crawler Object | 키는 크롤러의 아이디
+file_name | Crawler 파일 이름 | 크롤러 코드
+crawl_id | 숫자 | settings.json을 보고, 추가되는 오브젝트의 인덱스 값으로 설정
+crawl_cycle | 분 | 크롤러가 실행되는 주기, 단위는 분
+title | 타이틀 | 앱에 확인할 수 있는 크롤러 이름
+desc | 설명 | 앱에 확인할 수 있는 크롤러 설명
+thumbnail | URL | 크롤러 아이콘
+num_extra_data | 0-2 | 0 Reserved, 현재 사용되지 않음
+seperator | seperator 문자열 | 출력형식에서 고유번호, 제목, 링크를 split하기 위해 사용
+
+
 
 # License
 MIT Licensed. Copyright (c) Osori 2016.

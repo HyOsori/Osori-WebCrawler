@@ -1,12 +1,15 @@
-#-*- coding: utf-8 -*-
+﻿#-*- coding: utf-8 -*-
 import scrapy
 from scrapy.crawler import CrawlerProcess
 import datetime
+import logging
 
 class NdhsMealCrawler(scrapy.Spider):
     name = 'NDHS_CRAWLER'
     start_urls = ['http://www.ndhs.or.kr/2014/sub_community/sub2.php']
     base_urls = "http://www.ndhs.or.kr/2014/sub_community/sub2.php"
+    logging.getLogger('scrapy').propagate = False
+
 
     def parse(self, response):
         l = response.css("div > div > div > div > div > div > table > tbody > tr > th").extract()

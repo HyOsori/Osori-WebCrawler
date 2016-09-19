@@ -1,27 +1,34 @@
-#-*- coding: utf-8 -*-
-
 import scrapy
+import datetime, time
 from scrapy.crawler import CrawlerProcess
+
+import sys
+
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
+_seperator_ = "~!@123~!@"
+
 
 class ZangsisiCrawler(scrapy.Spider):
     name = 'zangsisi'
     start_urls = ['http://zangsisi.net/']
 
     def parse(self, response):
-        query_date      = "#recent-manga > div > li > div.date::text"
-        query_contents  = "#recent-manga > div > li > div.contents > a::text"
-        query_details   = "#recent-manga > div > li > div.contents > a > span::text"
+        query_date = "#recent-manga > div > li > div.date::text"
+        query_contents = "#recent-manga > div > li > div.contents > a::text"
+        query_urls = "#recent-manga > div > li:nth-child(1) > div.contents > a::attr(href)"
 
-        date     =  response.css(query_date).extract()
-        contents =  response.css(query_contents).extract()
-        details  =  response.css(query_details).extract()
+        dates = response.css(query_date).extract()
+        unique_ids = map(lambda value: int(time.mktime(datetime.datetime.strptime('2016-'+(value.replace('/','-')), "%Y-%m-%d").timetuple())), dates)
+        contents = response.css(query_contents).extract()
+        urls = response.css(query_urls).extract()
 
-        print date[0]
+        results = zip(unique_ids, contents, urls)
 
-        results = zip(contents, details)
+        for id, content, url in results:
+            print str(id) + _seperator_ + content + _seperator_ + url
 
-        for content, detail in results:
-            print content, detail
 
 process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'

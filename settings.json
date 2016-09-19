@@ -52,7 +52,8 @@
     "crawl_cycle": "120",
     "title": "해외 축구 경기 결과",
     "desc": "모든 해외 경기 다 나옴",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "separator": "~!@123~!@"
   },
 
   "zangsisi_recent_manga" : {
@@ -61,7 +62,8 @@
     "crawl_cycle": "120",
     "title": "Zangsisi 알림",
     "desc": "만화 뭐 올라오나",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "separator": "~!@123~!@"
   },
 
   "LOLUpdateContent" : {
@@ -70,7 +72,8 @@
     "crawl_cycle": "60",
     "title": "롤 업데이트 공지",
     "desc": "망겜 업데이트 공지",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "separator": "~!@123~!@"
   },
 
   "steamCrawl": {
@@ -79,7 +82,8 @@
     "crawl_cycle": "120",
     "title": "스팀 세일",
     "desc": "뭐 할인?",
-    "thumbnail": "URL"  
+    "thumbnail": "URL",
+    "separator": "~!@123~!@"
   }
 
 }

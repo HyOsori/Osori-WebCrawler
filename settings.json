@@ -6,7 +6,9 @@
     "crawl_cycle": "60",
     "title" : "한양대학교 컴퓨터공학부 공지사항",
     "desc": "긁습니다",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "num_extra_data":"0",
+    "separator" : "&^%987&^%"
   },
 
   "naver_realrank" : {
@@ -15,7 +17,11 @@
     "crawl_cycle": "10",
     "title": "³네이버 실시간 랭킹",
     "desc": "네이버 실시간 랭킹을 긁거요",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "num_extra_data":"0",
+    "separator" : "&^%987&^%"
+
+
   },
 
   "NDHS_Crawler" : {
@@ -24,7 +30,9 @@
     "crawl_cycle": "7200",
     "title": "남도학숙 식단",
     "desc": "뭐 먹는지 긁어요",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "num_extra_data":"0",
+    "separator" : "&^%987&^%"
   },
 
   "dcinside_hit_gallery" : {

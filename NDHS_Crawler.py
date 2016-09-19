@@ -1,15 +1,20 @@
-#-*- coding: utf-8 -*-
+﻿#-*- coding: utf-8 -*-
 import scrapy
 from scrapy.crawler import CrawlerProcess
-
+import datetime
+import logging
 
 class NdhsMealCrawler(scrapy.Spider):
     name = 'NDHS_CRAWLER'
     start_urls = ['http://www.ndhs.or.kr/2014/sub_community/sub2.php']
+    base_urls = "http://www.ndhs.or.kr/2014/sub_community/sub2.php"
+    logging.getLogger('scrapy').propagate = False
+
 
     def parse(self, response):
         l = response.css("div > div > div > div > div > div > table > tbody > tr > th").extract()
         m = response.css("div > div > div > div > div > div > table > tbody > tr > td").extract()
+        default_time = int(datetime.datetime.now().timestamp())
 
         for i in range(len(l)):
             if i == 5 :
@@ -21,16 +26,9 @@ class NdhsMealCrawler(scrapy.Spider):
 
         for i in range(len(m)):
             m[i] = m[i][4:-5]
-
         for i in range(7):
-            print l[i]
-            print "아침 : ",
-            print m[3*i + 0]
-            print "점심 : ",
-            print m[3*i + 1]
-            print "저녁 : ",
-            print m[3*i + 2 ]
-
+            print ( str(default_time)+"&^%987&^%"+l[i] + "아침 : " + m[3*i + 0] + "점심 : " + m[3*i + 1] + "저녁 : " + m[3*i + 2] + "&^%987&^%" + self.base_urls)
+            default_time+=1
     pass
 
 process = CrawlerProcess({

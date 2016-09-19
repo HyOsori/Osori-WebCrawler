@@ -1,7 +1,67 @@
 {
-  "dcinside_hit_gallery" :{
-    "file_name" : "dcinside_hit_gallery.py",
-    "crawler_num" : "0",
-    "crawl_cycle" : "60"
+
+  "hanyang_university_cs_notice": {
+    "file_name": "hanyang_university_cs_notice.py",
+    "crawl_cycle": "60",
+    "title" : "한양대학교 컴퓨터전공 공지사항",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "naver_realrank" : {
+    "file_name": "naver_realrank.py",
+    "crawl_cycle": "10",
+    "title": "네이버 실시간 검색어 순위",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "NDHS_Crawler" : {
+    "file_name": "NDHS_Crawler.py",
+    "crawl_cycle": "7200",
+    "title": "남도학숙 주간 식단표",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "dcinside_hit_gallery" : {
+    "file_name": "dcinside_hit_gallery.py",
+    "crawl_cycle": "60",
+    "title": "디시인사이드 힛갤러리 목록",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "FootballGameCrawler" : {
+    "file_name": "FootballGameCrawler.py",
+    "crawl_cycle": "120",
+    "title": "해외축구 일정 결과",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "zangsisi_recent_manga" : {
+    "file_name": "zangsisi_recent_manga.py",
+    "crawl_cycle": "120",
+    "title": "Zangsisi 최신화",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "LOLUpdateContent" : {
+    "file_name": "LOLUpdateContent.py",
+    "crawl_cycle": "60",
+    "title": "LOL 패치노트",
+    "desc": "설명",
+    "thumbnail": "URL"
+  },
+
+  "steamCrawl": {
+    "file_name": "steamCrawl.py",
+    "crawl_cycle": "120",
+    "title": "Steam 세일",
+    "desc": "설명",
+    "thumbnail": "URL"  
   }
+
 }

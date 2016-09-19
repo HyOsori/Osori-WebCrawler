@@ -16,12 +16,13 @@
 # Contributing
 * 크롤러는 python으로 작성해주세요.
 * 표준출력을 형식에 맞춰주시면 자동으로 Push가 발송됩니다.
-'''
+```
 고유번호[SEPERATOR]제목[SEPERATOR]링크
-'''
+```
 * 고유번호는 점점 증가해야합니다.
 * 크롤러와 settings.json 함께 수정해서 풀리퀘를 날려주세요.
-'''json
+
+```json
 {
 ...
 "dcinside_hit_gallery" : {
@@ -36,7 +37,8 @@
   },
 ...
 }
-'''
+```
+
 키 | 값 | 설명
 ---|----|------
 dcinside_hit_gallery | Crawler Object | 키는 크롤러의 아이디

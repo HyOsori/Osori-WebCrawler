@@ -3,64 +3,64 @@
   "hanyang_university_cs_notice": {
     "file_name": "hanyang_university_cs_notice.py",
     "crawl_cycle": "60",
-    "title" : "ÇÑ¾ç´ëÇĞ±³ ÄÄÇ»ÅÍÀü°ø °øÁö»çÇ×",
-    "desc": "¼³¸í",
+    "title" : "í•œì–‘ëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ë¶€ ê³µì§€ì‚¬í•­",
+    "desc": "ê¸ìŠµë‹ˆë‹¤",
     "thumbnail": "URL"
   },
 
   "naver_realrank" : {
     "file_name": "naver_realrank.py",
     "crawl_cycle": "10",
-    "title": "³×ÀÌ¹ö ½Ç½Ã°£ °Ë»ö¾î ¼øÀ§",
-    "desc": "¼³¸í",
+    "title": "Â³ë„¤ì´ë²„ ì‹¤ì‹œê°„ ë­í‚¹",
+    "desc": "ë„¤ì´ë²„ ì‹¤ì‹œê°„ ë­í‚¹ì„ ê¸ê±°ìš”",
     "thumbnail": "URL"
   },
 
   "NDHS_Crawler" : {
     "file_name": "NDHS_Crawler.py",
     "crawl_cycle": "7200",
-    "title": "³²µµÇĞ¼÷ ÁÖ°£ ½Ä´ÜÇ¥",
-    "desc": "¼³¸í",
+    "title": "ë‚¨ë„í•™ìˆ™ ì‹ë‹¨",
+    "desc": "ë­ ë¨¹ëŠ”ì§€ ê¸ì–´ìš”",
     "thumbnail": "URL"
   },
 
   "dcinside_hit_gallery" : {
     "file_name": "dcinside_hit_gallery.py",
     "crawl_cycle": "60",
-    "title": "µğ½ÃÀÎ»çÀÌµå Èı°¶·¯¸® ¸ñ·Ï",
-    "desc": "¼³¸í",
+    "title": "ë””ì‹œì¸ì‚¬ì´ë“œ í› ê°¤",
+    "desc": "í›ê°¤ì— ë­ ì˜¬ë¼ì˜µë‹ˆê¹Œ?",
     "thumbnail": "URL"
   },
 
   "FootballGameCrawler" : {
     "file_name": "FootballGameCrawler.py",
     "crawl_cycle": "120",
-    "title": "ÇØ¿ÜÃà±¸ ÀÏÁ¤ °á°ú",
-    "desc": "¼³¸í",
+    "title": "í•´ì™¸ ì¶•êµ¬ ê²½ê¸° ê²°ê³¼",
+    "desc": "ëª¨ë“  í•´ì™¸ ê²½ê¸° ë‹¤ ë‚˜ì˜´",
     "thumbnail": "URL"
   },
 
   "zangsisi_recent_manga" : {
     "file_name": "zangsisi_recent_manga.py",
     "crawl_cycle": "120",
-    "title": "Zangsisi ÃÖ½ÅÈ­",
-    "desc": "¼³¸í",
+    "title": "Zangsisi ì•Œë¦¼",
+    "desc": "ë§Œí™” ë­ ì˜¬ë¼ì˜¤ë‚˜",
     "thumbnail": "URL"
   },
 
   "LOLUpdateContent" : {
     "file_name": "LOLUpdateContent.py",
     "crawl_cycle": "60",
-    "title": "LOL ÆĞÄ¡³ëÆ®",
-    "desc": "¼³¸í",
+    "title": "ë¡¤ ì—…ë°ì´íŠ¸ ê³µì§€",
+    "desc": "ë§ê²œ ì—…ë°ì´íŠ¸ ê³µì§€",
     "thumbnail": "URL"
   },
 
   "steamCrawl": {
     "file_name": "steamCrawl.py",
     "crawl_cycle": "120",
-    "title": "Steam ¼¼ÀÏ",
-    "desc": "¼³¸í",
+    "title": "ìŠ¤íŒ€ ì„¸ì¼",
+    "desc": "ë­ í• ì¸?",
     "thumbnail": "URL"  
   }
 

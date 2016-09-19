@@ -1,11 +1,13 @@
 import scrapy
 from scrapy.crawler import CrawlerProcess
+import logging
 
 
 class DCInsideHitGalleryCrawler(scrapy.Spider):
     name = 'DC Inside HitGallery - crawler'
     start_urls = ['http://gall.dcinside.com/board/lists/?id=hit&page=1']
     base_urls = 'http://gall.dcinside.com'
+    logging.getLogger('scrapy').propagate = False
 
     def parse(self, response):
 

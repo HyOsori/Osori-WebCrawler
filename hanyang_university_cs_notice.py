@@ -19,7 +19,7 @@ class CSHanyangCrawler(scrapy.Spider):
 
         for number, pair in pairs:
 #            print (number, pair)
-            print(str(number) + "&^%987&^%" + pair + "&^%987&^%" + self.base_urls +str(number)+"&subkind=&offset=0&offset=0")
+            print(str(number) + "&^%987&^%" + pair + "&^%987&^%" + self.base_urls +str(number)+"&subkind=&offset=0")
 
 process = CrawlerProcess({
     'USER_AGENT': 'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1)'

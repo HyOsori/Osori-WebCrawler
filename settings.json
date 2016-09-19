@@ -29,7 +29,9 @@
     "crawl_cycle": "60",
     "title": "디시인사이드 힛 갤",
     "desc": "힛갤에 뭐 올라옵니까?",
-    "thumbnail": "URL"
+    "thumbnail": "URL",
+    "num_extra_data": "0",
+    "separator": "~!@123~!@"
   },
 
   "FootballGameCrawler" : {

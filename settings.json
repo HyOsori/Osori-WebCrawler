@@ -86,4 +86,15 @@
     "separator": "~!@123~!@"
   }
 
+  "dc_theaterM_gallery": {
+    "file_name": "dc_theaterM_gallery.py",
+    "crawl_id":"8",
+    "crawl_cycle": "60",
+    "title": "디시인사이드 연극뮤지컬 갤러리 개념글",
+    "desc": "연극뮤지컬갤러리 개념글입니다 ...? ",
+    "thumbnail": "URL",
+    "num_extra_data": "0",
+    "separator": "&^%987&^%"
+
+  }
 }

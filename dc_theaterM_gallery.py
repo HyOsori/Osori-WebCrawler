@@ -9,7 +9,6 @@ class TheaterM_gallery_Crawler(scrapy.Spider):
     logging.getLogger('scrapy').propagate = False
 
     def parse(self, response):
-
         title = '.list_thead > tr > td:nth-child(2) > a::text'
         number = '.list_thead > tr > td:nth-child(1)::text'
         href = '.list_thead > tr > td:nth-child(2) > a:nth-child(1)::attr(href)'

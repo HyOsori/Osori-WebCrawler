@@ -12,6 +12,7 @@
 6 | Zangsisi 최신화 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/zangsisi_recent_manga.py) | [GunjuKo](https://github.com/GunjuKo)
 7 | LOL 패치노트 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/LOLUpdateContent.py) | [seubseub](https://github.com/seubseub)
 8 | Steam 세일 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/steamCrawl.py) | [doomsheart](https://github.com/doomsheart)
+9 | 디시인사이드 연극뮤지컬 갤러리 개념글모음 | [Code](https://github.com/HyOsori/Osori-WebCrawler/blob/master/dc_theaterM_gallery.py) | [CameliaOvO](https://github.com/CameliaOvO)
 
 # Contributing
 * 크롤러는 python으로 작성해주세요.

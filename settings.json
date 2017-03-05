@@ -6,8 +6,8 @@
     "crawl_cycle": "60",
     "title" : "한양대학교 컴퓨터공학부 공지사항",
     "desc": "긁습니다",
-    "thumbnail": "https://cs.hanyang.ac.kr/img/logo.gif",
-    "link_url": "https://cs.hanyang.ac.kr/",
+    "thumbnail": "http://cs.hanyang.ac.kr/img/logo.gif",
+    "link_url": "http://cs.hanyang.ac.kr/",
     "num_extra_data":"0",
     "separator" : "&^%987&^%"
   },
@@ -18,8 +18,8 @@
     "crawl_cycle": "10",
     "title": "³네이버 실시간 랭킹",
     "desc": "네이버 실시간 랭킹을 긁거요",
-    "thumbnail": "https://www.navercorp.com/ko/img/bg_corp_down.gif",
-    "link_url":  "https://www.naver.com",
+    "thumbnail": "http://www.navercorp.com/ko/img/bg_corp_down.gif",
+    "link_url":  "http://www.naver.com",
     "num_extra_data":"0",
     "separator" : "&^%987&^%"
 
@@ -32,8 +32,8 @@
     "crawl_cycle": "7200",
     "title": "남도학숙 식단",
     "desc": "뭐 먹는지 긁어요",
-    "thumbnail": "https://www.ndhs.or.kr/2014/commons/images/site/title.jpg",
-    "link_url":  "https://www.ndhs.or.kr/2014/sub_community/sub2.php?menuidx=52&zoom=100",
+    "thumbnail": "http://www.ndhs.or.kr/2014/commons/images/site/title.jpg",
+    "link_url":  "http://www.ndhs.or.kr/2014/sub_community/sub2.php?menuidx=52&zoom=100",
     "num_extra_data":"0",
     "separator" : "&^%987&^%"
   },
@@ -44,8 +44,8 @@
     "crawl_cycle": "60",
     "title": "디시인사이드 힛 갤",
     "desc": "힛갤에 뭐 올라옵니까?",
-    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DC_inside_logo.svg/2000px-DC_inside_logo.svg.png",
-    "link_url":  "https://http://gall.dcinside.com/board/lists?id=hit",
+    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DC_inside_logo.svg/2000px-DC_inside_logo.svg.png",
+    "link_url":  "http://http://gall.dcinside.com/board/lists?id=hit",
     "num_extra_data": "0",
     "separator": "~!@123~!@"
   },
@@ -56,7 +56,7 @@
     "crawl_cycle": "120",
     "title": "해외 축구 경기 결과",
     "desc": "모든 해외 경기 다 나옴",
-    "thumbnail": "https://pbs.twimg.com/profile_images/567602360298373120/836FCrr7.png",
+    "thumbnail": "http://pbs.twimg.com/profile_images/567602360298373120/836FCrr7.png",
     "link_url":  "http://search.daum.net/search?w=tot&DA=YZR&t__nil_searchbox=btn&sug=&sugo=&q=%ED%95%B4%EC%99%B8+%EC%B6%95%EA%B5%AC+%EC%9D%BC%EC%A0%95",
     "separator": "~!@123~!@"
   },
@@ -67,7 +67,7 @@
     "crawl_cycle": "120",
     "title": "Zangsisi 알림",
     "desc": "만화 뭐 올라오나",
-    "thumbnail": "https://lh3.googleusercontent.com/8mlzLZeS8HFHDtHDyY0uWld-6cmeLZ8dBWPjPP1bHrUHi5JP1xK16690yL8Zl2Jw_GmY=w300-rw",
+    "thumbnail": "http://lh3.googleusercontent.com/8mlzLZeS8HFHDtHDyY0uWld-6cmeLZ8dBWPjPP1bHrUHi5JP1xK16690yL8Zl2Jw_GmY=w300-rw",
     "link_url":  "http://zangsisi.net/",
     "separator": "~!@123~!@"
   },
@@ -78,8 +78,8 @@
     "crawl_cycle": "60",
     "title": "롤 업데이트 공지",
     "desc": "롤 업데이트 공지",
-    "thumbnail": "https://static.leagueoflegends.co.kr/common/img/common/favicon.ico",
-    "link_url":  "https://www.leagueoflegends.co.kr/?m=news&cate=notice",
+    "thumbnail": "http://static.leagueoflegends.co.kr/common/img/common/favicon.ico",
+    "link_url":  "http://www.leagueoflegends.co.kr/?m=news&cate=notice",
     "separator": "~!@123~!@"
   },
 
@@ -89,7 +89,7 @@
     "crawl_cycle": "120",
     "title": "스팀 세일",
     "desc": "뭐 할인?",
-    "thumbnail": "https://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png?t=962016",
+    "thumbnail": "http://store.akamai.steamstatic.com/public/shared/images/header/globalheader_logo.png?t=962016",
     "link_url":  "http://store.steampowered.com/search/?specials=1",
     "separator": "~!@123~!@"
   },
@@ -100,7 +100,7 @@
     "crawl_cycle": "60",
     "title": "디시인사이드 연극뮤지컬 갤러리 개념글",
     "desc": "연극뮤지컬갤러리 개념글입니다 ...?",
-    "thumbnail": "https://librewiki.net/images/6/60/Favicon_dcinside.png",
+    "thumbnail": "http://librewiki.net/images/6/60/Favicon_dcinside.png",
     "link_url":  "http://gall.dcinside.com/board/lists?id=theaterM",
     "num_extra_data": "0",
     "separator": "&^%987&^%"

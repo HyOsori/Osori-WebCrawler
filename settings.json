@@ -44,7 +44,7 @@
     "crawl_cycle": "60",
     "title": "디시인사이드 힛 갤",
     "desc": "힛갤에 뭐 올라옵니까?",
-    "thumbnail": "http://upload.wikimedia.org/wikipedia/commons/thumb/b/be/DC_inside_logo.svg/2000px-DC_inside_logo.svg.png",
+    "thumbnail": "http://librewiki.net/images/6/60/Favicon_dcinside.png",
     "link_url":  "http://http://gall.dcinside.com/board/lists?id=hit",
     "num_extra_data": "0",
     "separator": "~!@123~!@"
@@ -67,7 +67,7 @@
     "crawl_cycle": "120",
     "title": "Zangsisi 알림",
     "desc": "만화 뭐 올라오나",
-    "thumbnail": "http://lh3.googleusercontent.com/8mlzLZeS8HFHDtHDyY0uWld-6cmeLZ8dBWPjPP1bHrUHi5JP1xK16690yL8Zl2Jw_GmY=w300-rw",
+    "thumbnail": "http://cdn.apk-cloud.com/detail/image/zangsisi.zangsisi-w130.png",
     "link_url":  "http://zangsisi.net/",
     "separator": "~!@123~!@"
   },
